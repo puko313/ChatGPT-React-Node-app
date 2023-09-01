@@ -1,126 +1,101 @@
-Contribution: 2022-07-27 20:00
+# ChatGPT Web Application
 
-Contribution: 2022-07-27 20:01
+A web application that allows users to interact with OpenAI's GPT-3 language model through a simple and user-friendly interface.
+This app is for demo purpose to test OpenAI API and may contain issues/bugs.
 
-Contribution: 2022-07-27 20:02
+If you are looking for a simple HTML/vanilla JavaScript version, check [here](https://github.com/workwithhim/ChatGPT-react-node-app.git)
 
-Contribution: 2022-07-29 20:00
+![Demo Gif](/client/src/img/demo2.gif)
 
-Contribution: 2022-07-29 20:01
+<a href="https://www.buymeacoffee.com/ioanmo226" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="51" width="217"></a>
 
-Contribution: 2022-07-29 20:02
 
-Contribution: 2022-07-29 20:03
+## Features
+- User-friendly interface for making requests to the OpenAI API
+- Responses are displayed in a chat-like format
+- Select Models (Davinci, Codex, Create Image) based on your needs
+- Highlight code syntax
 
-Contribution: 2022-07-29 20:04
+## Technologies Used
+- For client, I used React.js.
+- For server, I used express.
 
-Contribution: 2022-07-31 20:00
+## Setup Introduction
+This guide will help you set up the repository on your local machine. Please follow these steps carefully to ensure a smooth setup process.
 
-Contribution: 2022-07-31 20:01
+### Cloning the repository
+Use the following command to clone the repository:
+```sh
+git clone https://github.com/workwithhim/ChatGPT-react-node-app.git
+```
 
-Contribution: 2022-07-31 20:02
+### Backend Setup
+ 
+- Navigate to server directory
+```sh
+cd server # Navigate to the server directory:
+```
+- Install dependencies
+```sh
+npm install #install the backend dependencies
+```
+- Set the OPENAI_API_KEY in the .env file:
+```sh
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+```
 
-Contribution: 2022-08-01 20:00
+- Start the backend server by running the following command:
+```sh
+node index.js
+```
 
-Contribution: 2022-08-04 20:00
+### Frontend Setup
 
-Contribution: 2022-08-04 20:01
+- Navigate to the client directory:
+```sh
+cd client
+```
 
-Contribution: 2022-08-04 20:02
+- Run the following command to install the frontend dependencies:
+```sh
+npm install
+```
 
-Contribution: 2022-08-04 20:03
+- Set the `REACT_APP_BACKEND_URL` in the `.env` file to the URL of your backend server. For local development, use the following URL:
+```sh
+REACT_APP_BACKEND_URL=http://localhost:3001/
+```
 
-Contribution: 2022-08-07 20:00
+- Start the frontend app by running the following command:
+```sh
+npm start
+```
 
-Contribution: 2022-08-07 20:01
+### Hosting Backend and Frontend in Same Port/URL
 
-Contribution: 2022-08-07 20:02
+If you wish to host both the backend and frontend on the same port/URL, follow these steps:
 
-Contribution: 2022-08-11 20:00
+- Build the frontend by running the following command in the `client` directory:
+```sh
+npm run build
+```
+- Copy the `build` directory to the `server` directory and rename it to `frontend`.
 
-Contribution: 2022-08-11 20:01
+- Start the backend server using the instructions in the "Backend Setup" section.
 
-Contribution: 2022-08-11 20:02
+- Once the setup process is complete, the frontend will be accessible at the URL of your backend server.
 
-Contribution: 2022-08-12 20:00
+## Usage
+- Type in the input field and press enter or click on the send button to make a request to the OpenAI API
+- Use control+enter to add line breaks in the input field
+- Responses are displayed in the chat-like format on top of the page
+- Generate code, including translating natural language to code
+- You can also create AI images using DALL·E models 
 
-Contribution: 2022-08-16 20:00
+## Contributing
 
-Contribution: 2022-08-16 20:01
+This project welcomes contributions and suggestions for improvements. If you have any ideas, please feel free to open an issue or create a pull request.
 
-Contribution: 2022-08-16 20:02
+Thank you for your consideration.
 
-Contribution: 2022-08-17 20:00
-
-Contribution: 2022-08-20 20:00
-
-Contribution: 2022-08-20 20:01
-
-Contribution: 2022-08-22 20:00
-
-Contribution: 2022-08-22 20:01
-
-Contribution: 2022-08-22 20:02
-
-Contribution: 2022-08-22 20:03
-
-Contribution: 2022-08-22 20:04
-
-Contribution: 2022-08-26 20:00
-
-Contribution: 2022-08-26 20:01
-
-Contribution: 2022-09-01 20:00
-
-Contribution: 2022-09-01 20:01
-
-Contribution: 2022-09-02 20:00
-
-Contribution: 2022-09-02 20:01
-
-Contribution: 2022-09-02 20:02
-
-Contribution: 2022-09-02 20:03
-
-Contribution: 2022-09-03 20:00
-
-Contribution: 2022-09-03 20:01
-
-Contribution: 2022-09-03 20:02
-
-Contribution: 2022-09-04 20:00
-
-Contribution: 2022-09-04 20:01
-
-Contribution: 2022-09-04 20:02
-
-Contribution: 2022-09-04 20:03
-
-Contribution: 2022-09-04 20:04
-
-Contribution: 2022-09-06 20:00
-
-Contribution: 2022-09-07 20:00
-
-Contribution: 2022-09-07 20:01
-
-Contribution: 2022-09-07 20:02
-
-Contribution: 2022-09-07 20:03
-
-Contribution: 2022-09-07 20:04
-
-Contribution: 2022-09-08 20:00
-
-Contribution: 2022-09-08 20:01
-
-Contribution: 2022-09-12 20:00
-
-Contribution: 2022-09-12 20:01
-
-Contribution: 2022-09-12 20:02
-
-Contribution: 2022-09-14 20:00
-
-Contribution: 2022-09-14 20:01
 
